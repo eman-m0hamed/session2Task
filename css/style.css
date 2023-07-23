@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+
+/* start navbar section */
+.navbar{
+    background-color: rgb(70, 70, 138);
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar h1{
+    float: left;
+}
+.navbar ul{
+    float: right;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 15px 5px;
+}
+
+.navbar ul li:hover{
+    color: #9e9edc;
+}
+/* end navbar section */
+
+/* start about section */
+.about{
+    background-image: url("../images/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin-bottom: 40px;
+    overflow: hidden;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.about .cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.45);
+    overflow: hidden;
+}
+
+.about .cover .container{
+    margin-top:200px;
+}
+
+.about .cover h1{
+    text-transform: uppercase;
+    margin-bottom:0;
+    font-size:35px;
+    font-weight: bold;
+
+}
+.about .cover h2{
+    text-transform: capitalize;
+    margin-top:15px;
+    font-size:30px;
+}
+.about .cover p{
+    font-size:20px;
+    width:60%;
+    margin-top:50px;
+    line-height: 1.8;
+}
+
+.about-button{
+    color:inherit;
+    padding:10px 20px;
+    margin: 10px;
+    font-size:20px;
+    background: transparent;
+    border:1px solid white;
+    overflow:hidden;
+    cursor: pointer;
+}
+
+.about-button:first-child{
+    border-radius: 30px;
+}
+
+.about-button:last-child{
+    border-radius: 7px;
+    background: rgb(94, 94, 141);
+}
+/* end about section */
+
+
+/* start blog section */
+.blog{
+    text-align:center;
+}
+.blog .container h1 {
+    font-size: 32px;
+    line-height: 1.6;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.blog-p {
+    width: 700px;
+    margin: auto auto 70px
+}
+
+.blog .container .parts div{
+    display:inline-block;
+    width:30%;
+    /* text-align:center; */
+    margin:5px;
+}
+.blog .container .parts div img{
+    width: 100%;
+    height: 240px;
+    border-radius: 7px;
+}
+.blog .container .parts div a{
+    text-decoration: none;
+    /* transition: all 2s ease-in-out; */
+}
+.blog .container .parts div a:hover h2{
+    color:rgb(70, 70, 138);
+}
+/* end blog section */
