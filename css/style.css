@@ -103,6 +103,9 @@ body{
     border-radius: 7px;
     background: rgb(94, 94, 141);
 }
+.about-button:last-child:hover{
+    background: transparent;
+}
 /* end about section */
 
 
