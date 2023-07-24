@@ -136,7 +136,9 @@ body{
     text-decoration: none;
     /* transition: all 2s ease-in-out; */
 }
-.blog .container .parts div a:hover h2{
-    color:rgb(70, 70, 138);
+.parts div a:first-of-type:hover img{
+    /* color:rgb(70, 70, 138); */
+    width:300px;
+    height: 200px;
 }
 /* end blog section */
